@@ -69,8 +69,6 @@ public class MenuChoises {
                 case 7:
                     System.out.println("\nRunning Library...");
                     new AnotherDayInTheLibrary();
-                    //MainMenu mainMenu = new MainMenu();
-                   // mainMenu.displayMenu();
                     break;
                 case 8:
                     System.out.println("\nRunning Vending Machine...");
