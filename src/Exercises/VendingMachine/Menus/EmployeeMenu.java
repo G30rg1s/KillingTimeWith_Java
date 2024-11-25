@@ -16,7 +16,7 @@ public class EmployeeMenu {
     }
 
     public void displayMenu(Scanner scanner) {
-        String enteredPassword = VendingMascine_Tools.getNonEmptyString(scanner, "Enter employee password: ");
+        String enteredPassword = VendingMascine_Tools.getNonEmptyString(scanner, "Enter employee password (1234): ");
 
         if (enteredPassword.equals(employee.getPassword())) {
             boolean managing = true;
