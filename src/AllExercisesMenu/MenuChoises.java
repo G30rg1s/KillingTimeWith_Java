@@ -1,11 +1,13 @@
-package Menu;
+package AllExercisesMenu;
 
 import java.util.Scanner;
 import Exercises.Casting;
 import Exercises.Farmers.BrownEggs;
 import Exercises.Farmers.FredEggs;
+import Exercises.Library.AnotherDayInTheLibrary;
 import Exercises.RockPaperScissors.Play_RockPaperScissors;
 import Exercises.ShoppingCart;
+import Exercises.VendingMachine.Menus.MainMenu;
 
 public class MenuChoises {
 
@@ -21,7 +23,9 @@ public class MenuChoises {
             System.out.println("4. Shopping Cart");
             System.out.println("5. Prefiled ex.2a");
             System.out.println("6. Rock-Paper-Scissors");
-            System.out.println("7. Exit");
+            System.out.println("7. Another Day In the Library");
+            System.out.println("8. Feeling thirsty or hungry? Try the Vending Machine");
+            System.out.println("9. Exit");
             System.out.print("Enter your choice: ");
 
             int choice;
@@ -63,6 +67,17 @@ public class MenuChoises {
                     new Play_RockPaperScissors();
                     break;
                 case 7:
+                    System.out.println("\nRunning Library...");
+                    new AnotherDayInTheLibrary();
+                    //MainMenu mainMenu = new MainMenu();
+                   // mainMenu.displayMenu();
+                    break;
+                case 8:
+                    System.out.println("\nRunning Vending Machine...");
+                    MainMenu mainMenu = new MainMenu();
+                    mainMenu.displayMenu();
+                    break;
+                case 9:
                     System.out.println("Exiting the program. Goodbye!");
                     exit = true;
                     break;
