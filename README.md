@@ -1,7 +1,8 @@
 # MyProject
 This repository contains:
-- `MyProject.jar`: The executable JAR file.
+- `A_A_JavaPractise.jar`: The executable JAR file.
 - `run-myproject.bat`: A script to run the JAR on Windows.
+- `RunJar.sh` :  A script to run the JAR on Mac.
 
 ## Prerequisites
 - **Java 21 (JDK 21)** is required to run this program.
@@ -9,7 +10,8 @@ This repository contains:
 
 ## How to Run
 1. **Download the Files**:
-    - Download the folder  **runner** that has both files `MyProject.jar` and `run-myproject.bat`.
+    - Download the folder  **WindowsRunner** that has both files `A_A_JavaPractise.jar` and `run-myproject.bat`.
+    - Download the folder  **MacRunner** that has both files `A_A_JavaPractise.jar` and `RunJar.sh`.
     
 
 2. **Verify Java Installation**:
